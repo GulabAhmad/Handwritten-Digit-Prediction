@@ -1,11 +1,3 @@
-"""Create demo upload files in sample_images/.
-
-- digit_<d>_drawn.png : a digit drawn with thick pen strokes, dark ink on light paper
-                        (photo-like: off-centre, slightly noisy background)
-- digit_<d>_photo.jpg : same idea saved as JPEG
-- blank.png           : plain paper with no digit   -> must be rejected
-- broken.png          : not an image at all          -> must be rejected
-"""
 from __future__ import annotations
 
 import numpy as np

@@ -1,8 +1,3 @@
-"""Streamlit app: upload a photo of one handwritten digit, see the prepared 8x8
-input and the predictions of the saved CNN and ViT.
-
-Run:  streamlit run app.py      (train first with: python train.py)
-"""
 from __future__ import annotations
 
 import json

@@ -1,9 +1,3 @@
-"""Shared code for the handwritten digit project.
-
-Everything that BOTH training (train.py) and the app (app.py) need lives here,
-so the data scaling, patching, class mapping and model definitions can never
-drift apart between the two paths.
-"""
 from __future__ import annotations
 
 import io

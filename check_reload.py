@@ -1,8 +1,3 @@
-"""Fresh-process check: reload both checkpoints (no training), re-score the saved
-test split, and run the upload pipeline on the demo images.
-
-Usage:  python check_reload.py
-"""
 from __future__ import annotations
 
 import numpy as np
